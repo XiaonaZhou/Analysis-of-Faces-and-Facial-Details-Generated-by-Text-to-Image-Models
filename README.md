@@ -1,6 +1,6 @@
 # Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models
 
-## Intruction
+## Instruction
 
 I would not suggest rerun any of the codes that generate or extracte images. Datasets needed to reproduce results in the [report](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/CS5824_Analysis_on_the_new_state_of_the_art_model_ERNIE_ViLG_project.pdf) are listed under *Dataset* section below, and you can directly run the [notebook](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/ERNIE_ViLG_analysis/FID_score_plot.ipynb) to regenerate plots. If you are interested in seeing how FID scores were calculated, go [here](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/ERNIE_ViLG_analysis/FID_score_Real_and_ERNIE.ipynb), and you can see which datasets were used. From there, we can find how the dataset were produced from corresponding Jupyter notebooks. 
 
