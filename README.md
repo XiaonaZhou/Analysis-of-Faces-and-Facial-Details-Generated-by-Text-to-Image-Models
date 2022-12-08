@@ -1,6 +1,6 @@
 # Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models
 
-##Overview:
+## Overview:
 
 In this project, we reproduced the results of [Borji](https://arxiv.org/abs/2210.00586) and extended the work to further analysis of facial details, eyes and mouth. We also included a new diffusion model, ERNIE-ViLG, that achieves state-of-the-art on MS-COCO with zero-shot FID score of 6.75, which outperforms Google’s Imagen. We find that despite being the state-of-the-art Text-to-Image model, ERNIE-ViLG scores highest in FID score on all categories. While DALL-E 2 struggles more with generating natural eyes, Midjourney falls short on mouth details. we explored possible reasons and included some analysis of the model.
 
