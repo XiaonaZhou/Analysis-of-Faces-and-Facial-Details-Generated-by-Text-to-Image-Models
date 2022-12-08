@@ -1,5 +1,9 @@
 # Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models
 
+##Overview:
+
+In this project, we reproduced the results of [Borji](https://arxiv.org/abs/2210.00586) and extended the work to further analysis of facial details, eyes and mouth. We also included a new diffusion model, ERNIE-ViLG, that achieves state-of-the-art on MS-COCO with zero-shot FID score of 6.75, which outperforms Google’s Imagen. We find that despite being the state-of-the-art Text-to-Image model, ERNIE-ViLG scores highest in FID score on all categories. While DALL-E 2 struggles more with generating natural eyes, Midjourney falls short on mouth details. we explored possible reasons and included some analysis of the model.
+
 ## Instruction
 
 I would not suggest rerun any of the codes that generate or extracte images. Datasets needed to reproduce results in the [report](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/CS5824_Analysis_on_the_new_state_of_the_art_model_ERNIE_ViLG_project.pdf) are listed under *Dataset* section below, and you can directly run the [notebook](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/ERNIE_ViLG_analysis/FID_score_plot.ipynb) to regenerate plots. If you are interested in seeing how FID scores were calculated, go [here](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/ERNIE_ViLG_analysis/FID_score_Real_and_ERNIE.ipynb), and you can see which datasets were used. From there, we can find how the dataset were produced from corresponding Jupyter notebooks. 
