@@ -1,6 +1,8 @@
 # Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models
 
-## Intruction: I would not suggest rerun any of the codes that generate or extracte images. Datasets needed to reproduce results in the report are listed under *Dataset* section below, and you can directly run the [notebook](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/ERNIE_ViLG_analysis/FID_score_plot.ipynb) to regenerate plots. If you are interested in seeing how FID scores were calculated, go [here](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/ERNIE_ViLG_analysis/FID_score_Real_and_ERNIE.ipynb), and you can see which datasets were used. From there, we can find how the dataset were produced from corresponding Jupyter notebooks. 
+## Intruction
+
+I would not suggest rerun any of the codes that generate or extracte images. Datasets needed to reproduce results in the report are listed under *Dataset* section below, and you can directly run the [notebook](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/ERNIE_ViLG_analysis/FID_score_plot.ipynb) to regenerate plots. If you are interested in seeing how FID scores were calculated, go [here](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/ERNIE_ViLG_analysis/FID_score_Real_and_ERNIE.ipynb), and you can see which datasets were used. From there, we can find how the dataset were produced from corresponding Jupyter notebooks. 
 
 ### Codes
 1. [Code for extracting face images from COCO dataset](https://github.com/XiaonaZhou/Analysis-of-Faces-and-Facial-Details-Generated-by-Text-to-Image-Models/blob/main/Extract_faces_from_COCO_dataset.ipynb)
